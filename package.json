@@ -1,0 +1,27 @@
+{
+  "name": "pwa_movements_monitor",
+  "version": "1.0.0",
+  "description": "Monitor all the movements of a person.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielAlbino/pwa_movements_monitor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielAlbino/pwa_movements_monitor/issues"
+  },
+  "homepage": "https://github.com/DanielAlbino/pwa_movements_monitor#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "jest": "^27.4.7",
+    "mongoose": "^6.1.8",
+    "nodemon": "^2.0.15"
+  }
+}
